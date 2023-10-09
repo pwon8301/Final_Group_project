@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1007.0</th>
+<th>V.1.1009.0</th>
 <th>10/07</th>
 <th>JoeyWang</th>
 </tr>
@@ -18,4 +18,4 @@ Git hub is a really useful tool but could also be dangerous. We might waste lots
 Besides that,Some protocals can make our team work more high-efficiency and less mistake.So we can put all these things in this document.<br>
 
 # Version management
-
+Since we will need lots of functions and each function can be written by different person,Using different branch can help us make our projet less prone to content conflicts or other hassles.So I will put the details on how to use this below
