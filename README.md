@@ -16,7 +16,7 @@ This repository is for our final project
 </tr>
 </table>
 
-## Develop Version
+## release Version
 <table>
 <tr>
 <th>Version</th>
@@ -30,7 +30,7 @@ This repository is for our final project
 </tr>
 </table>
 
-## Branch version
+## Develop version
 <table>
 <tr>
 <th>Version</th>
@@ -38,7 +38,7 @@ This repository is for our final project
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1009.2</th>
+<th>V.1.1009.3</th>
 <th>10/09</th>
 <th>JoeyWang</th>
 </tr>
