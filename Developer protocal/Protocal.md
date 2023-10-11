@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1011.0</th>
+<th>V.1.1011.1</th>
 <th>10/11</th>
 <th>JoeyWang</th>
 </tr>
@@ -26,8 +26,9 @@ We will put our version management table in readme file,The version management t
 All the version management will be puted in readme file like  this :
 ![Version control](Images/DPP1.png)<br>
 About version naming:<br>
-For main branch and release branch
-for documents and develop branch,We can use this format:```x.x.xxxx.x``` This stand for First class version + date + dateversion.<br> 
+For main branch and release branch,we can use this format```x.x.x```This stand for First class version + Second class Version + Small update Version<br>
+for documents and develop branch,We can use this format:```x..xxxx.x``` This stand for First class version + date + dateversion.<br> 
+
 
 
 
@@ -35,4 +36,5 @@ for documents and develop branch,We can use this format:```x.x.xxxx.x``` This st
 Since we will need lots of functions and each function can be written by different person,Using different branch can help us make our projet less prone to content conflicts or other hassles.So I will put the details on how to use this below
 
 ### More about Branch
-you can view different branch on git hub by clicking this
+you can view different branch on github by selecting here:
+![View branch](Images/DPP2.png)<br>
