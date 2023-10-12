@@ -35,8 +35,12 @@ for documents and develop branch,We can use this format:```x..xxxx.x``` This sta
 # More github
 Since we will need lots of functions and each function can be written by different person,Using different branch can help us make our projet less prone to content conflicts or other hassles.So I will put the details on how to use this below
 
-### More about Branch
+### View different Branch
 you can view different branch on github by selecting here:<br>
 ![View branch](Images/DPP2.png)<br>
+### Switch workplace
 When you do your own work, you need to first change your workspace to your own branch.You can do that in VScode by selecting here<br>
-![Select branch](Images/DPP3.png)<br>
+![Select branch](Images/DPP3.jpg)<br>
+or you can also use comand:Git: check out,then selest your own branch
+### Merge branch
+you can combine two different branch together by using merge command.To merge Two different branch. You need to first check out to the branch that you want to change.then use merge command to select the branch you want to combined with.(for example: you want have made some changes on development branch,and you want put those change to release branch,then you need to first check out to release branch, then use merge branch command,and select develop branch.<br>)
