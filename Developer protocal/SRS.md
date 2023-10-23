@@ -1,1 +1,76 @@
 # Softwarw Requirement Statement
+# Version
+<table>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>changed by</th>
+</tr>
+<tr>
+<th>V.1.1024.0</th>
+<th>10/24</th>
+<th>JoeyWang</th>
+</tr>
+</table>
+
+# Function needs
+## Main function
+### Goal
+connect all the functions together
+
+## RoadGenerate function
+### Goal
+Generate the road path 
+### details
+### input
+### output
+### how to trriger
+### other requirements
+
+## RoadMarkGenerate function
+### Goal
+Generate different type of roadmark on the road path
+### details
+* Generate different type of roadmark on the road path
+* use number to repersent different type of roadmark
+* can choose which kind of road to generate
+### input
+Xpos,Ypos,Size,RoadType
+### output
+### how to trriger
+call the function
+### other requirements
+
+## CreeperGenerate function
+### Goal
+Generate an creeper face under the road layer
+### details
+### input
+Xpos,Ypos,Size
+### output
+### how to trriger
+### other requirements
+
+## GhostGenerate function
+### Goal
+### details
+### input
+### output
+### how to trriger
+### other requirements
+
+## PackmanGenerate function
+### Goal
+### details
+### input
+### output
+### how to trriger
+### other requirements
+
+## PositionRespond function
+### Goal
+### details
+### input
+### output
+### how to trriger
+### other requirements

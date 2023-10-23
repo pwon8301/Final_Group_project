@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.3</th>
+<th>V.1.1024.4</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
@@ -46,13 +46,18 @@ for documents and develop branch,We can use this format:```x..xxxx.x``` This sta
 
 # More github
 Since we will need lots of functions and each function can be written by different person,Using different branch can help us make our projet less prone to content conflicts or other hassles.So I will put the details on how to use this below
+由于我们需要写很多个不同的功能函数，而每个函数可能是不同的人在写，因此使用不同的分支可以减少项目内容冲突或其他麻烦。<br>
 
 ### View different Branch
 you can view different branch on github by selecting here:<br>
+通过如下操作以查看不同的分支<br>
 ![View branch](Images/DPP2.png)<br>
 ### Switch workplace
 When you do your own work, you need to first change your workspace to your own branch.You can do that in VScode by selecting here<br>
+在开始写自己的部分之前，一定要先通过以下方式把分支切换到自己的那条分支上去<br>
 ![Select branch](Images/DPP3.jpg)<br>
 or you can also use comand:Git: check out,then selest your own branch
 ### Merge branch
 you can combine two different branch together by using merge command.To merge Two different branch. You need to first check out to the branch that you want to change.then use merge command to select the branch you want to combined with.(for example: you want have made some changes on development branch,and you want put those change to release branch,then you need to first check out to release branch, then use merge branch command,and select develop branch.)<br>
+使用merge命令可以将两个不同的分支合并在一起。您需要先签出到您要更改的分支，然后使用合并命令选择您要合并的分支（例如：您想在开发分支上做一些更改，并想把这些更改放到发布分支上，那么您需要先签出到发布分支，然后使用合并分支命令，并选择开发分支）。<br>
+
