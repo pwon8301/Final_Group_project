@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.1</th>
+<th>V.1.1024.2</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
@@ -19,12 +19,15 @@ Besides that,Some protocals can make our team work more high-efficiency and less
 github虽然很好用但是不规范的使用也可能导致一些麻烦。我们上课所学的东西是并不足以支撑我们利用github高效开发的。因此我会在这个文档里放更多关于github的细节和一些可以让我们的开发更加高效和安全的细节在这里<br>
 # Version management
 We will put our version management table in readme file,The version management table will show the version of three branch<br>
-在readme文档里会有关于三条不同重要分支的版本管理的信息<br>
 ```The main Branch``` is the most inpoetant branch,we won't commit any changes to this branch unless we have some realy meaningfuf progress and 100% sure that there are no bugs in touse progress<br>
-```The main Branch``` 是最重要的一条主分支，基本上在任何时候都不要在这条分支上做任何改动除非我们真的确定没有任何bug且取得了一些阶段性的进展<br>
+
 ```The release branch``` will storage our combined work,For example: teammate A finfshed color function on his branch,Team mateB finished circle generate functions on her branch,Then both of them commit their branch to the release Branch.Once all the member commit their changes to the release branch and finished debug, we can drag the latest release branch to do the next step develop.we will only update the release branch when everyone agree,and once we have a new release version,every one should first drag the release branch to their own develop branch then do the later works<br>
-```The release branch```里面会存放我们不同功能的合并版本，比如说A完成了一个功能，B完成了另一个功能，这两个功能需要合并起来，那我们就会把这个两个人的版本都合并到release Branch上面去，然后在下一个开发阶段所有人先去release branch上面把当前最新版本拉取到自己的分支上，然后再进行后续更改<br>
+
 ```The develop branch``` is where everyone do thir own develop work you can commit an many times as you want. the only thing you should be careful is do not change other people's develop branch<br>
+
+在readme文档里会有关于三条不同重要分支的版本管理的信息<br>
+```The main Branch``` 是最重要的一条主分支，基本上在任何时候都不要在这条分支上做任何改动除非我们真的确定没有任何bug且取得了一些阶段性的进展<br>
+```The release branch```里面会存放我们不同功能的合并版本，比如说A完成了一个功能，B完成了另一个功能，这两个功能需要合并起来，那我们就会把这个两个人的版本都合并到release Branch上面去，然后在下一个开发阶段所有人先去release branch上面把当前最新版本拉取到自己的分支上，然后再进行后续更改<br>
 ```The develop branch``` 是每个人做自己部分功能时会用到的一个分支，只要确保自己没有改到别人的分支上去就好了<br>
 
 ```naming rules```
