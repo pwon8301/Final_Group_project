@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.4</th>
+<th>V.1.1024.5</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
@@ -20,13 +20,13 @@ connect all the functions together
 <br>
 
 ## RoadGenerate function
-1. Goal
+### Goal
 Generate the road path 
-2. details
-3. input
-4. output
-5. how to trriger
-6. other requirements
+### details
+### input
+### output
+### how to trriger
+### other requirements
 <br>
 
 ## RoadMarkGenerate function
@@ -46,7 +46,7 @@ call the function
 
 ## CreeperGenerate function
 ### Goal
-Generate an creeper face under the road layer
+Generate a creeper face under the road layer
 ### details
 ### input
 Xpos,Ypos,Size
@@ -57,6 +57,7 @@ Xpos,Ypos,Size
 
 ## GhostGenerate function
 ### Goal
+Generate a ghost on the road path
 ### details
 ### input
 ### output
@@ -66,6 +67,7 @@ Xpos,Ypos,Size
 
 ## PackmanGenerate function
 ### Goal
+Generate a Packman on the road path
 ### details
 ### input
 ### output
@@ -75,6 +77,7 @@ Xpos,Ypos,Size
 
 ## PositionRespond function
 ### Goal
+
 ### details
 ### input
 ### output
