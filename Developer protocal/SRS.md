@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.1</th>
+<th>V.1.1024.3</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
@@ -28,18 +28,18 @@ Generate the road path
 6. other requirements
 
 ## RoadMarkGenerate function
-1. ### Goal
+### Goal
 Generate different type of roadmark on the road path
-2. ### details
+### details
 * Generate different type of roadmark on the road path
 * use number to repersent different type of roadmark
 * can choose which kind of road to generate
-3. ### input
+### input
 Xpos,Ypos,Size,RoadType
-4. ### output
-5. ### how to trriger
+### output
+### how to trriger
 call the function
-6. ### other requirements
+### other requirements
 
 ## CreeperGenerate function
 ### Goal
