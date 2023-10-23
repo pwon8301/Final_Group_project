@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.2</th>
+<th>V.1.1024.3</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
@@ -25,10 +25,7 @@ We will put our version management table in readme file,The version management t
 
 ```The develop branch``` is where everyone do thir own develop work you can commit an many times as you want. the only thing you should be careful is do not change other people's develop branch<br>
 
-在readme文档里会有关于三条不同重要分支的版本管理的信息<br>
-```The main Branch``` 是最重要的一条主分支，基本上在任何时候都不要在这条分支上做任何改动除非我们真的确定没有任何bug且取得了一些阶段性的进展<br>
-```The release branch```里面会存放我们不同功能的合并版本，比如说A完成了一个功能，B完成了另一个功能，这两个功能需要合并起来，那我们就会把这个两个人的版本都合并到release Branch上面去，然后在下一个开发阶段所有人先去release branch上面把当前最新版本拉取到自己的分支上，然后再进行后续更改<br>
-```The develop branch``` 是每个人做自己部分功能时会用到的一个分支，只要确保自己没有改到别人的分支上去就好了<br>
+
 
 ```naming rules```
 All the version management will be puted in readme file like  this :<br>
@@ -37,6 +34,13 @@ About version naming:<br>
 For main branch and release branch,we can use this format```x.x.x```This stand for First class version + Second class Version + Small update Version<br>
 for documents and develop branch,We can use this format:```x..xxxx.x``` This stand for First class version + date + dateversion.<br> 
 
+在readme文档里会有关于三条不同重要分支的版本管理的信息<br>
+```The main Branch``` 是最重要的一条主分支，基本上在任何时候都不要在这条分支上做任何改动除非我们真的确定没有任何bug且取得了一些阶段性的进展<br>
+```The release branch```里面会存放我们不同功能的合并版本，比如说A完成了一个功能，B完成了另一个功能，这两个功能需要合并起来，那我们就会把这个两个人的版本都合并到release Branch上面去，然后在下一个开发阶段所有人先去release branch上面把当前最新版本拉取到自己的分支上，然后再进行后续更改<br>
+```The develop branch``` 是每个人做自己部分功能时会用到的一个分支，只要确保自己没有改到别人的分支上去就好了<br>
+所有的版本管理信息都会如上图所示<br>
+在主分支和release分支里版本命名模式是```x.x.x```，三个版本号分别表示大版本，二级版本和小升级版本<br>
+再个人的dev分支里命名模式是```x..xxxx.x```，三个版本号分别是大版本号，日期号和当日升级次数<br>
 
 
 
@@ -51,4 +55,4 @@ When you do your own work, you need to first change your workspace to your own b
 ![Select branch](Images/DPP3.jpg)<br>
 or you can also use comand:Git: check out,then selest your own branch
 ### Merge branch
-you can combine two different branch together by using merge command.To merge Two different branch. You need to first check out to the branch that you want to change.then use merge command to select the branch you want to combined with.(for example: you want have made some changes on development branch,and you want put those change to release branch,then you need to first check out to release branch, then use merge branch command,and select develop branch.<br>)
+you can combine two different branch together by using merge command.To merge Two different branch. You need to first check out to the branch that you want to change.then use merge command to select the branch you want to combined with.(for example: you want have made some changes on development branch,and you want put those change to release branch,then you need to first check out to release branch, then use merge branch command,and select develop branch.)<br>
