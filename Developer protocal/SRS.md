@@ -28,18 +28,18 @@ Generate the road path
 6. other requirements
 
 ## RoadMarkGenerate function
-### Goal
+1. ### Goal
 Generate different type of roadmark on the road path
-### details
+2. ### details
 * Generate different type of roadmark on the road path
 * use number to repersent different type of roadmark
 * can choose which kind of road to generate
-### input
+3. ### input
 Xpos,Ypos,Size,RoadType
-### output
-### how to trriger
+4. ### output
+5. ### how to trriger
 call the function
-### other requirements
+6. ### other requirements
 
 ## CreeperGenerate function
 ### Goal
