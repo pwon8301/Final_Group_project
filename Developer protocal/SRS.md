@@ -7,7 +7,7 @@
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.5</th>
+<th>V.1.1024.6</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
@@ -20,6 +20,7 @@ connect all the functions together
 <br>
 
 ## RoadGenerate function
+Joey
 ### Goal
 Generate the road path 
 ### details
@@ -47,37 +48,72 @@ call the function
 <br>
 
 ## CreeperGenerate function
+Pat Wong<br>
 ### Goal
 Generate a creeper face under the road layer
 ### details
+* need have two eyes and one nose/mouse made by rect
+* anchor will be set on the top left of left eye
+* Use X and Y to dicide the position
 ### input
 Xpos,Ypos,Size
 ### output
+the hole creeper face 
 ### how to trriger
+call the function
 ### other requirements
 <br>
 
 ## GhostGenerate function
+Joy
 ### Goal
 Generate a ghost on the road path
 ### details
+* The size should be respond to the size variable
+* anchor position TBD
+* Use X and Y to dicide the position
 ### input
+Xpos,Ypos,Size
 ### output
+The hole ghosts
 ### how to trriger
+call the function
 ### other requirements
 <br>
 
 ## PackmanGenerate function
+phoebe
+
 ### Goal
 Generate a Packman on the road path
 ### details
+* anchor position at center of the circle
 ### input
+Xpos,Ypos,Size
 ### output
+a packman
 ### how to trriger
+call the function
+### other requirements
+<br>
+
+## TreeGenerate function
+
+### Goal
+Generate a Packman on the road path
+### details
+* anchor position at center of the image
+### input
+Xpos,Ypos,Size
+### output
+A tree
+### how to trriger
+call the function
 ### other requirements
 <br>
 
 ## Respond function
+Joey
 ### Goal
 Call this functions can make the variable respond to the window
 ### details
