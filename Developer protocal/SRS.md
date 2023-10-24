@@ -36,9 +36,11 @@ Generate different type of roadmark on the road path
 * Generate different type of roadmark on the road path
 * use number to repersent different type of roadmark
 * can choose which kind of road to generate
+* The size and position are respond to the window
 ### input
 Xpos,Ypos,Size,RoadType
 ### output
+The road mark
 ### how to trriger
 call the function
 ### other requirements
@@ -75,13 +77,18 @@ Generate a Packman on the road path
 ### other requirements
 <br>
 
-## PositionRespond function
+## Respond function
 ### Goal
-
+Call this functions can make the variable respond to the window
 ### details
+* Use number to represent what kind of variable need to change 
+* the type could be X position,Y position,Height,Weidth,Size
 ### input
+Variables,VariableType
 ### output
+Variables
 ### how to trriger
+call the function
 ### other requirements
 <br>
 
