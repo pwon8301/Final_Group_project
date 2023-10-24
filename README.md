@@ -38,7 +38,7 @@ This repository is for our final project
 <th>changed by</th>
 </tr>
 <tr>
-<th>V.1.1024.8</th>
+<th>V.1.1024.10</th>
 <th>10/24</th>
 <th>JoeyWang</th>
 </tr>
