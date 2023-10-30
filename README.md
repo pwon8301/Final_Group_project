@@ -25,7 +25,7 @@ This repository is for our final project
 </tr>
 <tr>
 <th>V.1.1.0</th>
-<th>10/09</th>
+<th>10/31</th>
 <th>JoeyWang</th>
 </tr>
 </table>
