@@ -13,9 +13,7 @@ function setup() {
 
   background(220);
   //background(255, 204, 0);
-  
-
-
+  //MMM
 }
 
 function draw() {
