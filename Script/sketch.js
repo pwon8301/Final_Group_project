@@ -4,10 +4,16 @@ let ArrRoadX =[]
 let ArrRoadY =[]
 let CanvasSize = 600;
 let Size = 1;
+let c_xPos = 20;  //creeper xPos
+let c_yPos = 50;  //creeper yPos
+
+
 
 function setup() {
 
   background(220);
+  //background(255, 204, 0);
+  
 
 
 }
@@ -15,10 +21,14 @@ function setup() {
 function draw() {
   createCanvas(CanvasSize, CanvasSize);
   colorMode(RGB);
-  background(255);
+  //background(255);
+  background(255, 240, 0);
+  
   GenerateMap(10,6,Size)
+  drawCreeper(c_xPos*Size, c_yPos*Size, Size);
   GeneratePacMan(400*Size, 400*Size,Size);
-  GenerateTrees(100*Size,300*Size,Size)
+  GenerateTrees(400*Size,300*Size,Size)
+  //GenerateTrees(100*Size,300*Size,Size)
   Generateghost(200*Size,300*Size,Size)
   Respond();
  
@@ -73,8 +83,48 @@ if(RoadDirection == 0){
 if(RoadDirection == 1){
   rect(Xpos,Ypos,Roadlength,RoadWidth);
 }
-
 }
+
+function drawCreeper(xPos, yPos, size){
+  //strokeWeight(1)
+  noStroke()
+  
+  let eyeWidth = 15, eyeHeight = 15 
+  
+  let maxXDist = CanvasSize - xPos;     //available x-distance 
+  let maxYDist = CanvasSize - yPos;     //available y-distance 
+  let maxXSize = (maxXDist)/(3*eyeWidth)-0.1
+  let maxYSize = (maxYDist)/(3*eyeHeight)-0.1
+  if (size > maxXSize || size > maxYSize){
+    if(maxYSize>maxXSize){
+      size = maxXSize
+    }else{
+      size = maxYSize
+    }
+  }
+
+  let eyeSize = eyeWidth*size
+  let reye_X = xPos+(2*eyeSize)
+
+  //left eye
+  rect(xPos, yPos, eyeWidth*size, eyeHeight*size)
+
+  //right eye
+  rect(reye_X, yPos, eyeWidth*size, eyeHeight*size)
+
+  //LS mouth
+  rect(xPos+(0.5*eyeSize),yPos+(1.5*eyeSize),0.5*eyeSize,1.5*eyeSize)
+
+  //centre nose and mouth
+  rect(xPos+eyeSize,yPos+eyeSize,eyeSize,1.5*eyeSize)
+
+  //RS mouth
+  rect(xPos+(2*eyeSize),yPos+(1.5*eyeSize),0.5*eyeSize,1.5*eyeSize)
+}
+
+
+
+
 // for draw pacman
 function GeneratePacMan(x, y, size) {
   let startAngle = PI / 6;
